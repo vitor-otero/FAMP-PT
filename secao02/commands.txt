@@ -1,0 +1,13 @@
+Commands 
+
+pip freeze > requirements.txt 
+
+Save the requirements to install in another VM
+
+gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker
+
+run uvicorn with 4 servers
+
+source /Users/vitor/.virtualenvs/famp-secao02/bin/activate
+
+ativar vm
